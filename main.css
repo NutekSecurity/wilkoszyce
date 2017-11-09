@@ -85,3 +85,13 @@ nav {
     font-size: 2rem;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .jumbotron blockquote {
+    width: 100%;
+    margin-left: 0;
+  }
+  .jumbotron blockquote .lead {
+    font-size: 75%;
+  }
+}
